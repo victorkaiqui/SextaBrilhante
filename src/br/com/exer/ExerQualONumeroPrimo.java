@@ -8,19 +8,30 @@ package br.com.exer;
  *
  * @author vpaz
  */
-public class exerQualMaiorFatorPrimo {
+public class ExerQualONumeroPrimo {
 
-    public static void qualMaiorFatorPrimo(long j) {
+    public static void qulaONumeroPrimo(int n) {
 
-        for (int i = 1; i <= j; i++) {
+        boolean valida = true;
+        int cont = 0;
+        int contPos = 0;
 
-            if (primo(i)) {
-                if (j % i == 0) {
-                    System.out.println(i);
+        while (valida) {
+
+            cont++;
+
+            if (primo(cont)) {
+
+                contPos++;
+
+                if (contPos == n) {
+                    valida = false;
                 }
+
+                System.out.println(contPos + " -> " + cont);
+
             }
         }
-
     }
 
     public static boolean primo(long x) {

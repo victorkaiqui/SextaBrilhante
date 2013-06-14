@@ -14,10 +14,8 @@ import java.math.MathContext;
  */
 public class exerSomasDosDigitosDoFatorial {
     
-    public static void somasDosDigitosDoFatorial() {
+    public static void somasDosDigitosDoFatorial(int valor) {
         
-        
-        int valor = 10;
         BigInteger result = BigInteger.ONE;
         
         for (long i = valor; i >= 2; i--) {
@@ -34,12 +32,12 @@ public class exerSomasDosDigitosDoFatorial {
     }
     
     public static BigInteger soma(BigInteger x) {
+      
         if (x.compareTo(BigInteger.ONE) < 0) {
             return BigInteger.ZERO;
         }        
         
         return x.mod(BigInteger.TEN).add(soma(x.divide(BigInteger.TEN)));
-            
-        
+         
     }
 }

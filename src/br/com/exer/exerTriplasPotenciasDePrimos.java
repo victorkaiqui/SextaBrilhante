@@ -45,11 +45,13 @@ public class exerTriplasPotenciasDePrimos {
 
         if (x == 2 || x == 3) {
 
-            return primo = true;
+            primo = true;
+            return primo;
+
         }
         if (x % 2 == 0 && x != 2) {
 
-            return primo = false;
+            return primo;
         }
 
         for (int i = 3; i <= x; i++) {
