@@ -4,9 +4,7 @@
  */
 package br.com.exer;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.math.MathContext;
 
 /**
  *
