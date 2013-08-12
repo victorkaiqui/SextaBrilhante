@@ -9,8 +9,11 @@ import java.util.HashSet;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/7
+ * 
  */
-public class exerTriplasPotenciasDePrimos {
+public class Exer7 {
 
     public static void triplasPotenciasDePrimos(long j) {
 

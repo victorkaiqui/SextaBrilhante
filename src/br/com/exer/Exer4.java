@@ -10,8 +10,11 @@ import java.util.HashSet;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/4
+ * 
  */
-public class exerPotenciasDiferentes {
+public class Exer4 {
 
     public static void potenciasDiferentes(int menorA, int maiorA, int menorB, int maiorB) {
 

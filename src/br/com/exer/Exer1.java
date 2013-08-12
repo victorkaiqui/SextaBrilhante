@@ -7,8 +7,11 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/1
+ * 
  */
-public class exerSequenciaMaisLonga {
+public class Exer1 {
 
     public static void sequenciaMaisLonga(int n) {
 

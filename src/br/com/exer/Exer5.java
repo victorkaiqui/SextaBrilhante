@@ -8,8 +8,11 @@ package br.com.exer;
  * fdfds
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/5
+ * 
  */
-public class exerMultiplosDe3e5 {
+public class Exer5 {
 
     public static void multiplosDe3e5(int n) {
 

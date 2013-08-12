@@ -10,8 +10,11 @@ import java.util.List;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/2
+ * 
  */
-public class exerSomasNaoAbundantes {
+public class Exer2 {
 
     public static void somasNaoAbundantes(int n) {
         

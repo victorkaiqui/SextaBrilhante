@@ -9,8 +9,11 @@ import java.math.BigInteger;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/8
+ * 
  */
-public class exerSomasDosDigitosDoFatorial {
+public class Exer8 {
     
     public static void somasDosDigitosDoFatorial(int valor) {
         

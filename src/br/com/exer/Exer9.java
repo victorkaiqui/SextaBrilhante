@@ -7,10 +7,13 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/9
+ * 
  */
-public class exerQualONumeroPrimo {
+public class Exer9 {
 
-    public static void qulaONumeroPrimo(int n) {
+    public static void qualEONumeroPrimo(int n) {
 
         boolean valida = true;
         int cont = 0;

@@ -4,9 +4,7 @@
  */
 package sexta;
 
-import br.com.exer.exerDiagonaisEmNumerosEspiralados;
-import br.com.exer.exerFormasDeTroco;
-import br.com.exer.exerTriplaPitagorica;
+import br.com.exer.Exer16;
 
 /**
  *
@@ -18,5 +16,8 @@ public class Sexta {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        Exer16.numeroTriangularDivisivel();
+
     }
 }

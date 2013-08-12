@@ -7,8 +7,11 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/14
+ * 
  */
-public class exerDiagonaisEmNumerosEspiralados {
+public class Exer14 {
 
     public static void diagonaisEmNumerosEspiralados(int n) {
 

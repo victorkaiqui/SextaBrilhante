@@ -7,10 +7,13 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/12
+ * 
  */
-public class exerFormasDeTroco {
+public class Exer12 {
 
-    public static void formasDeTroco() {
+    public static void jeitosDeFazerTroco() {
 
         int cont = 0;
         int c1;

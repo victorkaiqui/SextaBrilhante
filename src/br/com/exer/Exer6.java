@@ -7,10 +7,13 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/6
+ * 
  */
-public class exerQualMaiorFatorPrimo {
+public class Exer6 {
 
-    public static void qualMaiorFatorPrimo(long j) {
+    public static void qualOMaiorFatorPrimo(long j) {
 
         for (int i = 1; i <= j; i++) {
 

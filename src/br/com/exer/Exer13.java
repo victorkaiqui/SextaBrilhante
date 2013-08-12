@@ -7,10 +7,13 @@ package br.com.exer;
 /**
  *
  * @author vpaz
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/13
+ * 
  */
-public class exerTriplaPitagorica {
+public class Exer13 {
 
-    public static void triplaPitagorica() {
+    public static void triplaPitagoricaEspecial() {
 
         int c, valorTotal, valorAB;
 
