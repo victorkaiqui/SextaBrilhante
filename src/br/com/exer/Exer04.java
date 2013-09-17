@@ -14,7 +14,7 @@ import java.util.HashSet;
  * http://www.hamerski.com.br/sexta/main/show/4
  * 
  */
-public class Exer4 {
+public class Exer04 {
 
     public static void potenciasDiferentes(int menorA, int maiorA, int menorB, int maiorB) {
 

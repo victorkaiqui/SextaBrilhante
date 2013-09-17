@@ -11,7 +11,7 @@ package br.com.exer;
  * http://www.hamerski.com.br/sexta/main/show/9
  * 
  */
-public class Exer9 {
+public class Exer09 {
 
     public static void qualEONumeroPrimo(int n) {
 

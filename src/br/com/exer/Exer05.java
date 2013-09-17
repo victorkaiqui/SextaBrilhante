@@ -12,7 +12,7 @@ package br.com.exer;
  * http://www.hamerski.com.br/sexta/main/show/5
  * 
  */
-public class Exer5 {
+public class Exer05 {
 
     public static void multiplosDe3e5(int n) {
 

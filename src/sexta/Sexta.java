@@ -4,7 +4,7 @@
  */
 package sexta;
 
-import br.com.exer.Exer16;
+import br.com.exer.*;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Sexta {
      */
     public static void main(String[] args) {
 
-        Exer16.numeroTriangularDivisivel();
+        Exer21.primosCortados();
 
     }
 }

@@ -13,7 +13,7 @@ import java.util.HashSet;
  * http://www.hamerski.com.br/sexta/main/show/7
  * 
  */
-public class Exer7 {
+public class Exer07 {
 
     public static void triplasPotenciasDePrimos(long j) {
 

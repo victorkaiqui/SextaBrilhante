@@ -11,7 +11,7 @@ package br.com.exer;
  * http://www.hamerski.com.br/sexta/main/show/1
  * 
  */
-public class Exer1 {
+public class Exer01 {
 
     public static void sequenciaMaisLonga(int n) {
 

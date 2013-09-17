@@ -13,7 +13,7 @@ import java.math.BigInteger;
  * http://www.hamerski.com.br/sexta/main/show/8
  * 
  */
-public class Exer8 {
+public class Exer08 {
     
     public static void somasDosDigitosDoFatorial(int valor) {
         

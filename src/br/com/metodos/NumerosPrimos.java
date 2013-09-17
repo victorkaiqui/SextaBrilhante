@@ -2,37 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.metodos;
 
 /**
  *
  * @author vpaz
  */
-public class ExerQualONumeroPrimo {
-
-    public static void qulaONumeroPrimo(int n) {
-
-        boolean valida = true;
-        int cont = 0;
-        int contPos = 0;
-
-        while (valida) {
-
-            cont++;
-
-            if (primo(cont)) {
-
-                contPos++;
-
-                if (contPos == n) {
-                    valida = false;
-                }
-
-                System.out.println(contPos + " -> " + cont);
-
-            }
-        }
-    }
+public class NumerosPrimos {
 
     public static boolean primo(long x) {
 
@@ -43,6 +19,9 @@ public class ExerQualONumeroPrimo {
             primo = true;
             return primo;
 
+        }
+        if (x == 0) {
+            return primo;
         }
         if (x % 2 == 0 && x != 2) {
 

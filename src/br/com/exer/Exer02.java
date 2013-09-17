@@ -14,7 +14,7 @@ import java.util.List;
  * http://www.hamerski.com.br/sexta/main/show/2
  * 
  */
-public class Exer2 {
+public class Exer02 {
 
     public static void somasNaoAbundantes(int n) {
         
