@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
  * 
  * http://www.hamerski.com.br/sexta/main/show/14
  * 
  */
-public class Exer14 {
+public class SextaBrilhante14 {
 
     public static void diagonaisEmNumerosEspiralados(int n) {
 

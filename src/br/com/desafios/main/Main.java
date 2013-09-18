@@ -2,22 +2,21 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package sexta;
+package br.com.desafios.main;
 
-import br.com.exer.*;
+import br.com.desafios.sextaBrilhante.*;
 
 /**
  *
- * @author vpaz
+ * @author @victorkaiqui
  */
-public class Sexta {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
-        Exer21.primosCortados();
-
+        
+        SextaBrilhante19.numerosDeFibonacci();
     }
 }

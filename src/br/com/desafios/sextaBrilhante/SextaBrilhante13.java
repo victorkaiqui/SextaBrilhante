@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
  * 
  * http://www.hamerski.com.br/sexta/main/show/13
  * 
  */
-public class Exer13 {
+public class SextaBrilhante13 {
 
     public static void triplaPitagoricaEspecial() {
 

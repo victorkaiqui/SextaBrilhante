@@ -2,19 +2,19 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
  * 
  * http://www.hamerski.com.br/sexta/main/show/2
  * 
  */
-public class Exer02 {
+public class SextaBrilhante02 {
 
     public static void somasNaoAbundantes(int n) {
         

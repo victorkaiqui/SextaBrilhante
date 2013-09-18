@@ -2,31 +2,32 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
-import br.com.metodos.NumerosPrimos;
+import br.com.desafios.metodos.metodos;
 
 /**
  *
- * @author vpaz
- * 
+ * @author  @victorKaiqui 
+ *
  * http://www.hamerski.com.br/sexta/main/show/6
- * 
+ *
  */
-public class Exer06 {
+public class SextaBrilhante06 {
 
     public static void qualOMaiorFatorPrimo(long j) {
 
         for (int i = 1; i <= j; i++) {
 
-            if (NumerosPrimos.primo(i)) {
+            if (metodos.primo(i)) {
                 if (j % i == 0) {
-                    System.out.println(i);
+                    System.out.println("Fator: " + i);
                 }
+            }
+            if ((j / 2) <= i) {
+                break;
             }
         }
 
     }
-
-    
 }

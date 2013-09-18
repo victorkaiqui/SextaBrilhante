@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 import java.math.BigInteger;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
  * 
  * http://www.hamerski.com.br/sexta/main/show/8
  * 
  */
-public class Exer08 {
+public class SextaBrilhante08 {
     
     public static void somasDosDigitosDoFatorial(int valor) {
         

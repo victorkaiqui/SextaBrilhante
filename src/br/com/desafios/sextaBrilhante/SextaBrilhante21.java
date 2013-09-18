@@ -2,15 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
-import br.com.metodos.NumerosPrimos;
+import br.com.desafios.metodos.metodos;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/21
+ * 
  */
-public class Exer21 {
+public class SextaBrilhante21 {
 
     public static void primosCortados() {
 
@@ -29,7 +32,7 @@ public class Exer21 {
 
         while (status) {
 
-            while (NumerosPrimos.primo(cont)) {
+            while (metodos.primo(cont)) {
 
                 string = String.valueOf(cont);
                 String direitaEsquerda = string.substring(i, string.length());
@@ -37,10 +40,8 @@ public class Exer21 {
 
                 if (!(direitaEsquerda.equals("") && esquerdaDireita.equals(""))) {
 
-                    System.out.println("<------------------------------ " + string + " ------------------------------>");
-
-                    if (NumerosPrimos.primo(Integer.valueOf(direitaEsquerda)) && NumerosPrimos.primo(Integer.valueOf(esquerdaDireita))) {
-                        System.out.println("Primo: Direita: " + direitaEsquerda + " esquerdaDireita: " + esquerdaDireita);
+                    if (metodos.primo(Integer.valueOf(direitaEsquerda)) && metodos.primo(Integer.valueOf(esquerdaDireita))) {
+                    
                         primo = true;
                     } else {
                         primo = false;

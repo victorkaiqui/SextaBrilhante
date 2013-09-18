@@ -2,15 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 import java.math.BigInteger;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ * 
+ * http://www.hamerski.com.br/sexta/main/show/18
+ * 
  */
-public class Exer18 {
+public class SextaBrilhante18 {
 
     public static void potenciasSomadas() {
 

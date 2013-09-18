@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 /**
  * fdfds
@@ -12,7 +12,7 @@ package br.com.exer;
  * http://www.hamerski.com.br/sexta/main/show/5
  * 
  */
-public class Exer05 {
+public class SextaBrilhante05 {
 
     public static void multiplosDe3e5(int n) {
 

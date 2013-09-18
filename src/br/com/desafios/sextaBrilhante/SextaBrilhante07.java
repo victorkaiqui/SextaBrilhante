@@ -2,18 +2,18 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.exer;
+package br.com.desafios.sextaBrilhante;
 
 import java.util.HashSet;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
  * 
  * http://www.hamerski.com.br/sexta/main/show/7
  * 
  */
-public class Exer07 {
+public class SextaBrilhante07 {
 
     public static void triplasPotenciasDePrimos(long j) {
 
