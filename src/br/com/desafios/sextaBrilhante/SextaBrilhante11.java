@@ -19,9 +19,9 @@ public class SextaBrilhante11 {
     public static void calcularExponenciacaoEficiente() {
         int max = 69;
         int total = 0;
-        List<No> listaNos = new ArrayList<No>();
-        // listaNos.add(new No(1, 0, 0));
+        List<No> listaNos = new ArrayList<No>();        
         int cont = 0;
+        
         while (listaNos.size() <= 100) {
             List<No> listaNosAux, listaNosInserir = new ArrayList<No>();
             listaNosAux = listaNos;

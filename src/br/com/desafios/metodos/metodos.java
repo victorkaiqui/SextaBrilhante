@@ -31,7 +31,7 @@ public class metodos {
         return primo;
     }
 
-    public static int soma(int x) {
+    public static long soma(long x) {
 
         if (x % 10 == 0) {
             return 0;
@@ -57,5 +57,26 @@ public class metodos {
         } else {
             return fibonacci(n - 1) + fibonacci(n - 2);
         }
+    }
+
+    public static long fatorial(long n) {
+        long fat = 1;
+
+        for (int i = 2; i <= n; i++) {
+            fat *= i;
+        }
+        return fat;
+    }
+
+    public static BigInteger factorial(BigInteger n) {
+        if (n.equals(BigInteger.ZERO)) {
+            return BigInteger.ONE;
+        }
+        BigInteger i = n.subtract(BigInteger.ONE);
+        while (i.compareTo(BigInteger.ZERO) > 0) {
+            n = n.multiply(i);
+            i = i.subtract(BigInteger.ONE);
+        }
+        return n;
     }
 }
