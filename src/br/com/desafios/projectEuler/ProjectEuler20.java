@@ -4,6 +4,9 @@
  */
 package br.com.desafios.projectEuler;
 
+import br.com.desafios.metodos.metodos;
+import java.math.BigInteger;
+
 /**
  *
  * @author @victorKaiqui
@@ -12,5 +15,11 @@ package br.com.desafios.projectEuler;
  *
  */
 public class ProjectEuler20 {
+
+    public static void factorialDigitSum() {
+        
+        BigInteger bi = metodos.factorial(new BigInteger("100"));        
+        System.out.println(metodos.soma(bi));
     
+    }
 }

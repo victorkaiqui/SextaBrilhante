@@ -19,7 +19,7 @@ public class Main {
         
 //        ProjectEuler14.longestCollatzSequence(1000000);  
         
-        ProjectEuler18.maximumPathSumI();
+        ProjectEuler20.factorialDigitSum();
         
     }
 }
