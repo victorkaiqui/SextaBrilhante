@@ -8,11 +8,11 @@ package br.com.desafios.projectEuler;
  *
  * @author @victorKaiqui
  *
- * http://projecteuler.net/problem=01
+ * http://projecteuler.net/problem=12
  *
  */
-public class ProjectEuler01 {
+public class ProjectEuler12 {
 
-    public static void multiplesOf3And5() {
+    public static void highlyDivisibleTriangularNumber() {
     }
 }

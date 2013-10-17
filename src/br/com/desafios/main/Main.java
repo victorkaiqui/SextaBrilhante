@@ -4,7 +4,7 @@
  */
 package br.com.desafios.main;
 
-import br.com.desafios.sextaBrilhante.*;
+import br.com.desafios.projectEuler.*;
 
 /**
  *
@@ -17,8 +17,9 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        SextaBrilhante23.primosQuadraticos(1000);
+//        ProjectEuler14.longestCollatzSequence(1000000);  
         
+        ProjectEuler18.maximumPathSumI();
         
     }
 }

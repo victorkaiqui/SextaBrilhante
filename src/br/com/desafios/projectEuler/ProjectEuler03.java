@@ -6,8 +6,13 @@ package br.com.desafios.projectEuler;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ *
+ * http://projecteuler.net/problem=03
+ *
  */
 public class ProjectEuler03 {
-    
+
+    public static void largestPrimeFactor() {
+    }
 }

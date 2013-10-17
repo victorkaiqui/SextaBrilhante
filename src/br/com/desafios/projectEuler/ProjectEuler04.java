@@ -6,8 +6,13 @@ package br.com.desafios.projectEuler;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ *
+ * http://projecteuler.net/problem=04
+ *
  */
 public class ProjectEuler04 {
-    
+
+    public static void largestPalindromeProduct() {
+    }
 }

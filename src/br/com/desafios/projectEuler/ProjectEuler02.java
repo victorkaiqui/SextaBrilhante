@@ -6,8 +6,13 @@ package br.com.desafios.projectEuler;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ *
+ * http://projecteuler.net/problem=02
+ *
  */
 public class ProjectEuler02 {
-    
+
+    public static void evenFibonacciNumbers() {
+    }
 }

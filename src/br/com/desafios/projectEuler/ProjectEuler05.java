@@ -6,16 +6,13 @@ package br.com.desafios.projectEuler;
 
 /**
  *
- * @author vpaz
+ * @author @victorKaiqui
+ *
+ * http://projecteuler.net/problem=05
+ *
  */
 public class ProjectEuler05 {
 
-    public static void smallestMltiple() {
-
-        boolean status = true;
-        boolean status2 = true;
-        
-        
-
+    public static void smallestMultiple() {
     }
 }

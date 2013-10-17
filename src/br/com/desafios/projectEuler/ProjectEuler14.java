@@ -2,22 +2,22 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.desafios.sextaBrilhante;
+package br.com.desafios.projectEuler;
 
 /**
  *
  * @author @victorKaiqui
  *
- * http://www.hamerski.com.br/sexta/main/show/1
+ * http://projecteuler.net/problem=14
  *
  */
-public class SextaBrilhante01 {
+public class ProjectEuler14 {
 
-    public static void sequenciaMaisLonga(int n) {
+    public static void longestCollatzSequence(int n) {
 
         int cont, aux;
-        int maiorValor = 0;
-        int maiorQtd = 0;
+        int biggerValue = 0;
+        int biggerQtd = 0;
 
 
         for (int i = 1; i <= n; i++) {
@@ -32,13 +32,13 @@ public class SextaBrilhante01 {
                 }
                 aux++;
             }
-            if (maiorQtd < aux) {
-                maiorValor = i;
-                maiorQtd = aux;
+            if (biggerQtd < aux) {
+                biggerValue = i;
+                biggerQtd = aux;
             }
         }
-        System.out.println("Qtd " + maiorQtd);
-        System.out.println("Valor " + maiorValor);
+        System.out.println("Qtd: " + biggerQtd);
+        System.out.println("Value: " + biggerValue);
 
     }
 }

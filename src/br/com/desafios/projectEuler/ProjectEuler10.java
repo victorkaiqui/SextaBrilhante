@@ -8,11 +8,9 @@ package br.com.desafios.projectEuler;
  *
  * @author @victorKaiqui
  *
- * http://projecteuler.net/problem=01
+ * http://projecteuler.net/problem=10
  *
  */
-public class ProjectEuler01 {
-
-    public static void multiplesOf3And5() {
-    }
+public class ProjectEuler10 {
+ public static void summationOfPrimes(){}   
 }

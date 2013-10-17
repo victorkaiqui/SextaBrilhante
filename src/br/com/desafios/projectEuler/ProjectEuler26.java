@@ -7,12 +7,10 @@ package br.com.desafios.projectEuler;
 /**
  *
  * @author @victorKaiqui
- *
- * http://projecteuler.net/problem=01
- *
+ * 
+ * http://projecteuler.net/problem=26
+ * 
  */
-public class ProjectEuler01 {
-
-    public static void multiplesOf3And5() {
-    }
+public class ProjectEuler26 {
+    
 }

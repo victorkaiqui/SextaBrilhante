@@ -8,11 +8,11 @@ package br.com.desafios.projectEuler;
  *
  * @author @victorKaiqui
  *
- * http://projecteuler.net/problem=01
+ * http://projecteuler.net/problem=08
  *
  */
-public class ProjectEuler01 {
+public class ProjectEuler08 {
 
-    public static void multiplesOf3And5() {
+    public static void largestProductInASeries() {
     }
 }

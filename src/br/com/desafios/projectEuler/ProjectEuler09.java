@@ -8,11 +8,11 @@ package br.com.desafios.projectEuler;
  *
  * @author @victorKaiqui
  *
- * http://projecteuler.net/problem=01
+ * http://projecteuler.net/problem=09
  *
  */
-public class ProjectEuler01 {
+public class ProjectEuler09 {
 
-    public static void multiplesOf3And5() {
+    public static void specialPythagoreanTriplet() {
     }
 }
