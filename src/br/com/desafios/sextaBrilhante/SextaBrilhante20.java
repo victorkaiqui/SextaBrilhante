@@ -20,8 +20,8 @@ public class SextaBrilhante20 {
         
         BigInteger bi = new BigInteger(String.valueOf(n));
 
-        BigInteger parte1 = metodos.factorial(bi.multiply(new BigInteger("2")));
-        BigInteger parte2 = metodos.factorial(bi).pow(2);
+        BigInteger parte1 = metodos.fatorial(bi.multiply(new BigInteger("2")));
+        BigInteger parte2 = metodos.fatorial(bi).pow(2);
         
         BigInteger resultado = parte1.divide(parte2);
         

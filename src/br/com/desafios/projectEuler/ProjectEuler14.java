@@ -13,14 +13,14 @@ package br.com.desafios.projectEuler;
  */
 public class ProjectEuler14 {
 
-    public static void longestCollatzSequence(int n) {
+    public static void longestCollatzSequence(long n) {
 
-        int cont, aux;
-        int biggerValue = 0;
-        int biggerQtd = 0;
+        long cont, aux;
+        long biggerValue = 0;
+        long biggerQtd = 0;
 
 
-        for (int i = 1; i <= n; i++) {
+        for (long i = 1; i <= n; i++) {
             cont = i;
             aux = 1;
             while (cont != 1) {

@@ -16,10 +16,6 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-//        ProjectEuler14.longestCollatzSequence(1000000);  
-        
-        ProjectEuler20.factorialDigitSum();
-        
+        ProjectEuler25.fibonacciNumber1000Digit();
     }
 }

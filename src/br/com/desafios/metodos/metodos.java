@@ -59,6 +59,16 @@ public class metodos {
         }
     }
 
+    public static BigInteger fibonacci(BigInteger n) {
+        if (n.equals(BigInteger.ZERO)) {
+            return BigInteger.ZERO;
+        }
+        if (n.equals(BigInteger.ONE)) {
+            return BigInteger.ONE;
+        }
+        return fibonacci(n.subtract(BigInteger.ONE)).add(fibonacci(n.subtract(new BigInteger("2"))));
+    }
+
     public static long fatorial(long n) {
         long fat = 1;
 
@@ -68,7 +78,7 @@ public class metodos {
         return fat;
     }
 
-    public static BigInteger factorial(BigInteger n) {
+    public static BigInteger fatorial(BigInteger n) {
         if (n.equals(BigInteger.ZERO)) {
             return BigInteger.ONE;
         }

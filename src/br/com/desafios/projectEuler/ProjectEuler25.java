@@ -4,6 +4,9 @@
  */
 package br.com.desafios.projectEuler;
 
+import br.com.desafios.metodos.metodos;
+import java.math.BigInteger;
+
 /**
  *
  * @author @victorKaiqui
@@ -12,5 +15,22 @@ package br.com.desafios.projectEuler;
  *
  */
 public class ProjectEuler25 {
-    
+
+    public static void fibonacciNumber1000Digit() {
+        boolean status = true;
+        BigInteger bi = new BigInteger("1");
+        String value;
+        
+        while (status) {
+
+            value = metodos.fibonacci(bi).toString();
+            
+            if (value.length() >= 1000) {
+                System.out.println(bi);
+                status = false;
+            }
+            
+            bi = bi.add(new BigInteger("1"));
+        }
+    }
 }

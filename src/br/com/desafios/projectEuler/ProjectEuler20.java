@@ -18,7 +18,7 @@ public class ProjectEuler20 {
 
     public static void factorialDigitSum() {
         
-        BigInteger bi = metodos.factorial(new BigInteger("100"));        
+        BigInteger bi = metodos.fatorial(new BigInteger("100"));        
         System.out.println(metodos.soma(bi));
     
     }
