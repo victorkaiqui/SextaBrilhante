@@ -5,6 +5,7 @@
 package br.com.desafios.main;
 
 import br.com.desafios.projectEuler.*;
+import br.com.desafios.sextaBrilhante.SextaBrilhante25;
 
 /**
  *
@@ -16,6 +17,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ProjectEuler25.fibonacciNumber1000Digit();
+
+        SextaBrilhante25.produtosPandigitais();
     }
 }
