@@ -5,7 +5,7 @@
 package br.com.desafios.main;
 
 import br.com.desafios.projectEuler.*;
-import br.com.desafios.sextaBrilhante.SextaBrilhante25;
+import br.com.desafios.sextaBrilhante.*;
 
 /**
  *
@@ -18,6 +18,8 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        SextaBrilhante25.produtosPandigitais();
+        ProjectEuler24.permutation();
+  
+        
     }
 }

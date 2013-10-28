@@ -17,20 +17,21 @@ import java.math.BigInteger;
 public class ProjectEuler25 {
 
     public static void fibonacciNumber1000Digit() {
+        
         boolean status = true;
-        BigInteger bi = new BigInteger("1");
+        BigInteger bi = new BigInteger("4500");
         String value;
         
         while (status) {
 
             value = metodos.fibonacci(bi).toString();
             
-            if (value.length() >= 1000) {
+            if (value.length() == 1000) {
                 System.out.println(bi);
                 status = false;
             }
             
-            bi = bi.add(new BigInteger("1"));
+            bi = bi.add(BigInteger.ONE);
         }
     }
 }

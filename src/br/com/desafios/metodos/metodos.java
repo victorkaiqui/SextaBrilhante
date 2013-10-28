@@ -5,6 +5,9 @@
 package br.com.desafios.metodos;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  *
@@ -58,15 +61,38 @@ public class metodos {
             return fibonacci(n - 1) + fibonacci(n - 2);
         }
     }
+    static HashMap<BigInteger, BigInteger> cache = new HashMap<BigInteger, BigInteger>();
+    static BigInteger TWO = new BigInteger("2");
+    static BigInteger ONE = BigInteger.ONE;
+    static BigInteger ZERO = BigInteger.ZERO;
 
     public static BigInteger fibonacci(BigInteger n) {
-        if (n.equals(BigInteger.ZERO)) {
-            return BigInteger.ZERO;
+
+        if (n.equals(ZERO)) {
+            return ZERO;
         }
-        if (n.equals(BigInteger.ONE)) {
-            return BigInteger.ONE;
+        if (n.equals(ONE)) {
+            return ONE;
         }
-        return fibonacci(n.subtract(BigInteger.ONE)).add(fibonacci(n.subtract(new BigInteger("2"))));
+        if (cache.containsKey(n)) {
+            return cache.get(n);
+        }
+
+        // odd
+        if (n.testBit(0)) {
+            BigInteger n2 = n.shiftRight(1);
+            BigInteger n3 = n2.add(ONE);
+            BigInteger result = fibonacci(n2).multiply(fibonacci(n2)).add(fibonacci(n3).multiply(fibonacci(n3)));
+            cache.put(n, result);
+            return result;
+        } // even
+        else {
+            BigInteger n2 = n.shiftRight(1);
+            BigInteger n3 = n2.subtract(ONE);
+            BigInteger result = fibonacci(n2).multiply(fibonacci(n2).add(fibonacci(n3).add(fibonacci(n3))));
+            cache.put(n, result);
+            return result;
+        }
     }
 
     public static long fatorial(long n) {
@@ -88,5 +114,20 @@ public class metodos {
             i = i.subtract(BigInteger.ONE);
         }
         return n;
+    }
+
+    public static List<String> permuteString(String beginningString, String endingString) {
+        List<String> lista = new ArrayList<>();
+        
+        if (endingString.length() <= 1) {
+            lista.add(beginningString + endingString);
+            System.out.println(beginningString + endingString);
+        } else {
+            for (int i = 0; i < endingString.length(); i++) {
+                String newString = endingString.substring(0, i) + endingString.substring(i + 1);
+                permuteString(beginningString + endingString.charAt(i), newString);
+            }
+        }
+        return lista;
     }
 }

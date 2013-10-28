@@ -17,14 +17,14 @@ import java.math.RoundingMode;
 public class SextaBrilhante03 {
 
     public static void ciclosReciprocos() {
-        BigDecimal numeroMax = new BigDecimal(950);
+        BigDecimal numeroMax = new BigDecimal(1000);
         int quantidade = 0;
         BigDecimal numeroResultado = new BigDecimal(0);
         BigDecimal cont = new BigDecimal(2);
         
         while (cont.compareTo(numeroMax) < 1) {
             
-            BigDecimal valor = new BigDecimal(1).divide(cont, 1000, RoundingMode.HALF_UP);
+            BigDecimal valor = new BigDecimal(1).divide(cont, 2000, RoundingMode.HALF_UP);
             
             String resultado = String.valueOf(valor).replace("0.00", "");
             resultado = resultado.replace("0.0", "");
@@ -32,7 +32,7 @@ public class SextaBrilhante03 {
             
             String valorRec = resultado.substring(10, 20);
             
-            for (int cont2 = 11; cont2 < 990; cont2++) {
+            for (int cont2 = 11; cont2 < 1990; cont2++) {
                 if (resultado.substring(cont2, cont2 + 10).equals(valorRec)) {
                     System.out.println(cont + ": " + (cont2 - 10));
                     if ((cont2 - 10) > quantidade) {
