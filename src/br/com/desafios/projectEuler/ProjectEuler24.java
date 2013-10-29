@@ -30,7 +30,6 @@ public class ProjectEuler24 {
 
         if (endingString.length() <= 1) {
             lista.add(beginningString + endingString);
-//            System.out.println(beginningString + endingString);
         } else {
             for (int i = 0; i < endingString.length(); i++) {
                 String newString = endingString.substring(0, i) + endingString.substring(i + 1);
