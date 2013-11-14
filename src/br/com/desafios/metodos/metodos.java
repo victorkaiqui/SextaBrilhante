@@ -118,7 +118,7 @@ public class metodos {
 
     public static List<String> permuteString(String beginningString, String endingString) {
         List<String> lista = new ArrayList<>();
-        
+
         if (endingString.length() <= 1) {
             lista.add(beginningString + endingString);
             System.out.println(beginningString + endingString);
@@ -129,5 +129,23 @@ public class metodos {
             }
         }
         return lista;
+    }
+
+    public static boolean pandigital(long i) {
+
+        String s = String.valueOf(i);
+        boolean status = false;
+
+        for (int j = 1; j <= s.length(); j++) {
+            if (s.contains(String.valueOf(j))) {
+                status = true;
+            } else {
+                status = false;
+                break;
+            }
+        }
+
+        return status;
+    
     }
 }

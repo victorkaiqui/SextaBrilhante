@@ -22,4 +22,5 @@ public class ProjectEuler20 {
         System.out.println(metodos.soma(bi));
     
     }
+    
 }

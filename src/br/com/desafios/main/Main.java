@@ -6,6 +6,7 @@ package br.com.desafios.main;
 
 import br.com.desafios.projectEuler.*;
 import br.com.desafios.sextaBrilhante.*;
+
 /**
  *
  * @author @victorkaiqui
@@ -14,8 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-       ProjectEuler37.truncatablePrimes();
-
+        ProjectEuler41.pandigitalPrime();
+     
     }
-
 }

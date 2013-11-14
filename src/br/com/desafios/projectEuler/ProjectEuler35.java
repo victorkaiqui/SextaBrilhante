@@ -5,6 +5,7 @@
  */
 package br.com.desafios.projectEuler;
 
+import br.com.desafios.metodos.metodos;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,23 +20,35 @@ public class ProjectEuler35 {
 
     List<String> lista = new ArrayList<>();
 
-    public void circularPrimes() {
-        ProjectEuler35 p = new ProjectEuler35();
-        p.permutation("", "197");
+    public static void circularPrimes() {
+        String s;
+        List<Integer> list = new ArrayList<>();
+        boolean status = false;
+        
+        for (int i = 0; i < 1000000; i++) {
 
-        System.out.println(lista);
-    }
-
-    public void permutation(String prefix, String str) {
-        int n = str.length();
-        if (n == 0) {
-            System.out.println(prefix);
-            lista.add(prefix);
-        } else {
-            for (int i = 0; i < n; i++) {
-                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, n));
+            s = String.valueOf(i);
+            
+            if (metodos.primo(Long.valueOf(s))) {
+                status = true;
+                for (int j = 0; j < s.length(); j++) {
+                    s = (String) s.subSequence(1, s.length()) + s.substring(0, 1);
+                    if (metodos.primo(Long.valueOf(s))) {
+                        status = true;
+                    } else {
+                        status = false;
+                        break;
+                    }
+                }
             }
-        }
-    }
 
+            if (status) {
+                System.out.println(i);
+                list.add(i);
+            }
+            status = false;
+        }
+        
+        System.out.println(list.size());
+    }
 }

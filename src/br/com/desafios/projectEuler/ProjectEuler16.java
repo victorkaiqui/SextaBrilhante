@@ -22,4 +22,5 @@ public class ProjectEuler16 {
 
         System.out.println(metodos.soma(bi.pow(1000)));
     }
+    
 }

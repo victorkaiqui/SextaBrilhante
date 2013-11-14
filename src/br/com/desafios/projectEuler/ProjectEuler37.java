@@ -67,7 +67,7 @@ public class ProjectEuler37 {
                 System.out.println(qtd + " ************* " + cont);
             }
 
-            if (qtd >= 12) {
+            if (qtd == 11) {
                 status = false;
             } else {
                 cont++;

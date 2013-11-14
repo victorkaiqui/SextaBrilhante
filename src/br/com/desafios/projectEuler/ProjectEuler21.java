@@ -29,8 +29,7 @@ public class ProjectEuler21 {
         int b;
         int b1;
 
-        for (int i = 1; i
-                < 10000; i++) {
+        for (int i = 1; i < 10000; i++) {
 
             a = i;
             a1 = 0;
