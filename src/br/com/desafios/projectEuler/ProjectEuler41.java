@@ -6,6 +6,9 @@
 package br.com.desafios.projectEuler;
 
 import br.com.desafios.metodos.metodos;
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -13,22 +16,18 @@ import br.com.desafios.metodos.metodos;
  */
 public class ProjectEuler41 {
 
-    
     public static void pandigitalPrime() {
 
-        long bigger = 0; 
+        List<String> cont = new ArrayList<>();
+        BigInteger i = BigInteger.ONE;
 
-        for (int i = 10; i < 100000000; i++) {
-                        
-            if (metodos.primo(i) && metodos.pandigital(i)) {               
-  
-                if (bigger < i) {
-                    System.out.println(i);
-                    bigger = i;
-                }
-                
+        while (cont.size() <= 1000) {
+            if (i.isProbablePrime(1) && metodos.pandigital(i)) {
+                cont.add(String.valueOf(i));
+                System.out.println(i);
             }
+            
+            i = i.add(BigInteger.ONE);
         }
-        System.out.println(bigger);
     }
 }

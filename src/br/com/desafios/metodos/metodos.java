@@ -132,7 +132,6 @@ public class metodos {
     }
 
     public static boolean pandigital(long i) {
-
         String s = String.valueOf(i);
         boolean status = false;
 
@@ -146,6 +145,28 @@ public class metodos {
         }
 
         return status;
-    
     }
+
+    public static boolean pandigital(BigInteger i) {
+
+        String s = String.valueOf(i);
+        boolean status = false;
+        BigInteger j = BigInteger.ONE;
+        int c = s.length();
+        while (c >= 0) {
+            if (s.contains(String.valueOf(j))) {
+                status = true;
+            } else {
+                status = false;
+                break;
+            }
+            j = j.add(BigInteger.ONE);
+            
+            c--;
+        }
+
+        return status;
+
+    }
+
 }
